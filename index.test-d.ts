@@ -1,7 +1,7 @@
 import {expectType} from 'tsd';
 import ansiStyles, {CSPair} from './index.js';
 
-expectType<ReadonlyMap<number, number>>(ansiStyles.codes);
+expectType<ReadonlyMap<number, number>>(ansiStyles.codes);\n
 
 // - Static colors -
 // -- Namespaced --
